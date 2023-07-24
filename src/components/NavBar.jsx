@@ -1,10 +1,7 @@
 import { Link, NavLink } from "react-router-dom"
 import { Container, Nav, Navbar} from "react-bootstrap"
 import { CartWidget } from "./CartWidget"
-import { data } from "../data/products.js"
 import logo from "../assets/logo-saboresverdes.svg"
-
-const categories = [...new Set(data.map(product => product.category.toLowerCase()))]
 
 export const NavBar = () => {
     return (
@@ -18,9 +15,8 @@ export const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto mx-auto">
                         <NavLink className="nav-link" to={"/"}>MENÚ</NavLink>
-                        {categories.map(item => (
-                            <NavLink className="nav-link" key={item} to={`/category/${item}`}>{item.toUpperCase()}</NavLink>
-                        ))}
+                        <NavLink className="nav-link" to={"/category/vegano"}>VEGANO</NavLink>
+                        <NavLink className="nav-link" to={"/category/vegetariano"}>VEGETARIANO</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

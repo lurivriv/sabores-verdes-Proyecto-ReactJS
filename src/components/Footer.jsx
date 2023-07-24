@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Container from "react-bootstrap/Container"
+import { Container } from "react-bootstrap"
 import logo from "../assets/logo-saboresverdes.svg"
 import iconWhatsapp from "../assets/icon-whatsapp.png"
 import iconInstagram from "../assets/icon-instagram.png"
