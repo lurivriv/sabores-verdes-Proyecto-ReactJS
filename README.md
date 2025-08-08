@@ -51,7 +51,7 @@ http://localhost:3000
 
 ## Dependencias adicionales
 
-Además de las tecnologías trabajadas en clase, se utilizaron las siguientes dependencias extra por npm:
+Además de las tecnologías trabajadas en clase, se utilizaron las siguientes dependencias extra por *npm*:
 
 - [**Bootstrap:**](https://react-bootstrap.netlify.app/) para facilitar el diseño responsivo del sitio web, proporcionando un conjunto de estilos y componentes predefinidos.
 - [**React spinners:**](https://www.npmjs.com/package/react-spinners?activeTab=readme) para mostrarle al usuario indicadores de carga atractivos durante el procesamiento de la información.
